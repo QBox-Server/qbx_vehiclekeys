@@ -67,7 +67,7 @@ return {
     ---@type table<JobName, SharedKeysConfig>
     sharedKeys = { -- Share keys amongst employees. Employees can lock/unlock any job-listed vehicle
         police = { -- Job name
-            enableAutolock = true,
+            enableAutolock = false,
             requireOnduty = true,
             classes = {},
             vehicles = {
@@ -76,7 +76,7 @@ return {
             }
         },
         ambulance = {
-            enableAutolock = true,
+            enableAutolock = false,
             requireOnduty = true,
             classes = {},
             vehicles = {
